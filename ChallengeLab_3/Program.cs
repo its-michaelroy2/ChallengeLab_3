@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Challenge Lab Week 3\n");
 
             // Test IsPalindrome method
-            Console.WriteLine(IsPalindrome("eye"));  // Should print: True
-            Console.WriteLine(IsPalindrome("home"));  // Should print: False
+            Console.WriteLine(IsPalindrome("racecar"));  // Should print: True
+            Console.WriteLine(IsPalindrome("bear"));  // Should print: False
 
             // Test SumDigitsInString method
             Console.WriteLine(SumDigitsInString("1q2w3e"));  // Should print: 6
